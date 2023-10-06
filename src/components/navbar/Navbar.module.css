@@ -1,0 +1,69 @@
+.container{
+        display: flex;
+        height: 80px;
+        align-items: center;
+        justify-content: space-between;    
+}
+.heading{
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    color: grey;
+}
+.p{
+    color:#1a73e8;
+}
+.p1{
+    color:#FFB000;
+}
+
+.price{
+    margin-right: 10px;
+    color: #FFB000;
+}
+
+.right{
+    display: flex;
+    gap:20px;
+}
+
+
+.contacts{
+    padding:7px;
+    border-radius:50%;
+    background-color: #D8D9DA;
+    align-items: center;
+    
+}
+.contact{
+    font-size: 25px;
+    cursor: pointer;
+}
+@media screen and (max-width: 720px) {
+    .heading{
+        font-size: 35px;
+    }
+    .contact{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .heading{
+        font-size: 41px;
+    }
+    .contact{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 460px) {
+
+    .right{
+        display: none;
+    }
+    .container{
+justify-content: center;
+
+
+}
+   
+}

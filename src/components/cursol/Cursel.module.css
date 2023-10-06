@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    background-color: #c0bdbd;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.cursel{
+    display: flex;
+   
+}
+.imgs{
+    object-fit: contain;
+}

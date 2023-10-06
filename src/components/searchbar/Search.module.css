@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.input{
+    height:50px;
+    width: 30vw;
+    font-size:20px;
+    border: 2px solid #1a73e8;
+    color: #1a73e8;
+    padding-left: 5px;
+}
+.input:focus{
+    outline:none;
+}
+.button{
+    cursor: pointer;
+    width: 8vw;
+    font-size: 20px;
+    color: #f7f7f7;
+    background-color: #1a73e8;
+    border: none;
+}
+.button:hover{
+    background-color: #145CB9;
+}
+@media screen and (max-width:900px) {
+
+  .input{
+    width:70vw;
+  }
+  .button{
+    width:20vw;
+  }
+}
